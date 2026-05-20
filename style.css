@@ -1,14 +1,35 @@
 body {
     background-image: linear-gradient(to bottom, black, #03382A);
-    font-family: 'Courier New', Courier, monospace; 
+    font-family: Arial, sans-serif; 
     color: white;
     text-align: left;
 }
 
 h1 {
     color: white;
-    text-align: center;
 }
 
-p {
+#nav {
+    background-color: #03382A;
+    padding: 10px;
+}
+
+#nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#nav a:hover {
+    color: aquamarine;
+    
+}
+
+#nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+#about {
+    margin: 20px;
+    text-align: center;
 }
