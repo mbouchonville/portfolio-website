@@ -1,0 +1,14 @@
+body {
+    background-image: linear-gradient(to bottom, black, #03382A);
+    font-family: 'Courier New', Courier, monospace; 
+    color: white;
+    text-align: left;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+}
