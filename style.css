@@ -11,12 +11,12 @@ body {
 
 
 /* NAV BAR */
-#nav {
+nav {
     background-color: #03382A;
     padding: 20px;
 }
 
-#nav a {
+nav a {
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -25,11 +25,11 @@ body {
     transition: color 0.3s ease;
 }
 
-#nav a:hover {
+nav a:hover {
     color: aquamarine;
 }
 
-#nav ul {
+nav ul {
     display: flex;
     justify-content: center;
     gap: 40px;
