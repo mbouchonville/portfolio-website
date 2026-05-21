@@ -1,33 +1,47 @@
+
+/* Removes default browser spacing */
+
 body {
+    margin: 0;
     background-image: linear-gradient(to bottom, black, #03382A);
     font-family: Arial, sans-serif; 
     color: white;
     text-align: left;
 }
 
-h1 {
-    color: white;
-}
 
+/* NAV BAR */
 #nav {
     background-color: #03382A;
-    padding: 10px;
+    padding: 20px;
 }
 
 #nav a {
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px;
+
+    transition: color 0.3s ease;
 }
 
 #nav a:hover {
     color: aquamarine;
-    
 }
 
 #nav ul {
     display: flex;
     justify-content: center;
+    gap: 40px;
+    top: 0;
 }
+
+/* HEADER */
+h1 {
+    color: white;
+}
+
+
 
 #about {
     margin: 20px;
