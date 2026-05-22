@@ -1,4 +1,7 @@
 
+html {
+    scroll-behavior: smooth;
+}
 /* Removes default browser spacing */
 
 body {
@@ -21,6 +24,7 @@ nav {
     justify-content: center;
     gap: 40px;
     top: 0;
+    position: sticky;
 }
 
 nav a {
@@ -44,14 +48,18 @@ h1 {
 /* HOME */
 #home {
     text-align: center;
-    padding-top: 120px;
-    padding-bottom: 120px;
 }
 
 /* ABOUT */
 #about {
-    margin: 20px;
     text-align: left;
     
+}
+
+section {
+    padding: 100px 40 px;
+    scroll-margin-top: 80px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
