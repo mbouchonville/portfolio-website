@@ -9,11 +9,18 @@ body {
     text-align: left;
 }
 
+p {
+    line-height: 1.6;
+}
 
 /* NAV BAR */
 nav {
     background-color: #03382A;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    top: 0;
 }
 
 nav a {
@@ -29,21 +36,22 @@ nav a:hover {
     color: aquamarine;
 }
 
-nav ul {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    top: 0;
-}
-
 /* HEADER */
 h1 {
     color: white;
 }
 
+/* HOME */
+#home {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
-
+/* ABOUT */
 #about {
     margin: 20px;
-    text-align: center;
+    text-align: left;
+    
 }
+
