@@ -91,3 +91,26 @@ section {
 .professional-skills {
     padding-right: 70px;
 }
+/* PROJECTS */
+
+.project-card {
+    display: block;
+    background-image: linear-gradient(to bottom, #03382A, black);
+    max-width: 350px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border: 1px solid #03382A;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card img {
+    width: 100%;
+    display: block;
+}
